@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+
+
+
+body {
+    background-color: rgb(201, 157, 81);
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.mynd1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: dotted 200px burlywood;
+}
+
+.mynd2 {
+    border-radius: 75%;
+}
+
+.aboutMe {
+    text-align: center;
+    
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: dotted 3px rgb(245, 194, 112);
+    padding-left: 4px;
+    padding-right: 4px; 
+}
+
+.owner {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    transition: 0.5s ease-in-out;
+    background-color:rgb(245, 194, 112);
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: bisque;
+    font-size: 30px;
+    transform: rotate(180deg);
+    
+}
+
+fieldset button {
+    border-radius: 10rem;
+    background-color: rgb(173, 122, 35);
+}
+
+footer{
+    text-align: center;
+}
