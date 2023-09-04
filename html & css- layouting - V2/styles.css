@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(192, 204, 26);
+    color: rgb(2, 12, 12);
+    text-align: center;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+display: flex;
+justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    ;
+    width: 800px;
+    height: 1000px;
+    justify-content: space-evenly;
+    border: 15px double black;
+    border-radius: 20px;
+
+}
+
+.lid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-wrapper img{
+    width: 200px;
+    height: auto;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper-footer img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    
+}
